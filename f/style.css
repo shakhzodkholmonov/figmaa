@@ -261,7 +261,6 @@ main {
 
 .submit-texts>h5 {
     color: aquamarine;
-    z-index: 100px;
     margin-left: 100px;
 }
 
@@ -270,6 +269,7 @@ main {
 }
 
 .cards {
+    flex-wrap: wrap;
     margin-top: 100px;
     display: flex;
     gap: 20px;
